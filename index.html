@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS links -->
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    
+
+    <title>Bootstrapbd</title>
+  </head>
+
+  
+  <body>
+    <h2>badge example</h2>
+
+    <h1>MEGA OFFER <span class="badge bg-secondary">New</span></h1>
+
+    <button type="button" class="btn btn-primary">FB Notifications <span class="badge bg-secondary">4</span></button>
+
+    <button type="button" class="btn btn-primary position-relative">Inbox<span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+    99+<span class="visually-hidden">unread messages</span></span></button>
+    
+    <span class="badge rounded-pill bg-primary">Primary</span>
+
+    <h2>button example</h2>
+
+    <button type="button" class="btn btn-danger">Danger</button>
+
+    <input class="btn btn-primary" type="button" value="Input">
+
+    <button type="button" class="btn btn-outline-danger">Danger</button>
+
+    <button type="button" class="btn btn-secondary btn-lg">Large button</button>
+
+    <button type="button" class="btn btn-secondary btn-sm">Small button</button>
+
+    <button type="button" class="btn btn-primary" data-bs-toggle="button" autocomplete="off">Toggle button</button>
+
+    <h2>carousal</h2>
+
+    <section>
+      <div class="container">
+        <div class="row">
+          <!--slider start-->
+          <div id="cExOnly" class="carousel slide" data-bs-ride="carousel">
+            <!--indicator-->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#cExOnly" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#cExOnly" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#cExOnly" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+            <!--inner-->
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="images/b1.jpg" class="d-block w-100" alt="burger">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Delicious</h5>
+                  <p>Burgers are awesome</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/b2.jpg" class="d-block w-100" alt="burger">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Tasty</h5>
+                  <p>Eat burger slowly</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/b3.jpg" class="d-block w-100" alt="burger">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Healthy</h5>
+                  <p>Add drinks with burger</p>
+                </div>
+              </div>
+            </div>
+            <!--button-->
+            <button class="carousel-control-prev" type="button" data-bs-target="#cExOnly" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#cExOnly" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!--slider end-->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- JS links -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+    
+  </body>
+</html>
